@@ -1,0 +1,100 @@
+.history-items-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+@media screen and (min-width: 768px) {
+  .history-items-container {
+    flex-direction: row;
+  }
+}
+.web-history {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media screen and (min-width: 768px) {
+  .web-history {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.domain-logo {
+  height: 40px;
+  width: 40px;
+  margin-top: 10px;
+  padding-right: 10px;
+}
+@media screen and (min-width: 768px) {
+  .domain-logo {
+    height: 40px;
+    width: 50px;
+    padding-right: 20px;
+  }
+}
+.app-name-container {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .app-name-container {
+    flex-direction: row;
+    padding-right: 200px;
+  }
+}
+.time {
+  font-size: 14px;
+  color: #475569;
+  font-weight: 800;
+  padding: 10px;
+  padding-left: 0px;
+}
+@media screen and (min-width: 768px) {
+  .time {
+    margin-top: 10px;
+    font-size: 15px;
+    padding-right: 20px;
+  }
+}
+.app-name {
+  font-size: 15px;
+  color: #475569;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+@media screen and (min-width: 768px) {
+  .app-name {
+    font-size: 15px;
+    padding-right: 20px;
+  }
+}
+.url-name {
+  font-size: 12px;
+  margin-top: 0px;
+}
+@media screen and (min-width: 768px) {
+  .url-name {
+    margin-top: 17px;
+  }
+}
+.app-details-container {
+  display: flex;
+  flex-direction: row;
+}
+.delete {
+  height: 15px;
+  width: 15px;
+}
+@media screen and (min-width: 768px) {
+  .delete {
+    height: 19px;
+    width: 19px;
+  }
+}
+
+.button {
+  border-width: 0px;
+  margin-top: 10px;
+}
